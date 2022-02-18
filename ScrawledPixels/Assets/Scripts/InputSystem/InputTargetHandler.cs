@@ -5,7 +5,7 @@ namespace ScrawledPixels.InputSystem
 {
     public class InputTargetHandler
     {
-        public Unit TouchedTarget()
+        public void TouchedTarget()
         {
             
         }

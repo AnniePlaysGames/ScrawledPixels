@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pixels" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfd2092b-5217-4c4d-aaae-cc7685475040" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/PlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/PlayerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ISpellAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ISpellAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells/New SpellData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells/New SpellData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/EnemyTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/EnemyTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/ITargetType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/ITargetType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/PlayerTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/PlayerTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/OdinSerializer/Core/Misc/ArchitectureInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.6.3/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/SpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/ISpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/ArmorDamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/DamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/HealAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/IncreaseArmorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetTypesData/EnemyTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetTypesData/TargetType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetTypesData/PlayerTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameCycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/TargetType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/ArmorDamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/DamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/HealAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/IncreaseArmorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/ISpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/SpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="259bg0FhEzOmUziUDw1nOndreeI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfd2092b-5217-4c4d-aaae-cc7685475040" name="Default Changelist" comment="" />
+      <created>1644942363407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644942363407</updated>
+      <workItem from="1644942405615" duration="477000" />
+      <workItem from="1644943517673" duration="1778000" />
+      <workItem from="1644946444051" duration="3230000" />
+      <workItem from="1644950100124" duration="7183000" />
+      <workItem from="1645095199817" duration="6171000" />
+      <workItem from="1645102022615" duration="84000" />
+      <workItem from="1645102288334" duration="12179000" />
+      <workItem from="1645176095193" duration="11874000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645179311569">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1645179311569" />
+    <state x="469" y="26" key="RiderGenerateDialog" timestamp="1645177524455">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="469" y="26" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1645177524455" />
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog" timestamp="1645181641202">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1645181641202" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1645176205284">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1645176205284" />
+  </component>
+</project>

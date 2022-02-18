@@ -1,5 +1,7 @@
 using System.Collections.Generic;
-using ScrawledPixels.BattleLogic.TargetTypes;
+using System.Runtime.InteropServices;
+using BattleLogic.SpellCast.SpellActionsData;
+using ScrawledPixels.OdinSerializer;
 using UnityEngine;
 
 namespace ScrawledPixels.BattleLogic.SpellCast
@@ -13,9 +15,7 @@ namespace ScrawledPixels.BattleLogic.SpellCast
         
         public List<SpellAction> Actions => _actions;
         [SerializeField] private List<SpellAction> _actions;
-        [SerializeField] private List<int> _lol;
-        public ITargetType TargetType => _targetType;
-        [SerializeField] private ITargetType _targetType;
+
         public string Key => _key;
         [SerializeField] private string _key;
         

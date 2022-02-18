@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using ScrawledPixels.InputSystem;
+using ScrawledPixels.OdinSerializer;
 
 namespace ScrawledPixels.BattleLogic.SpellCast
 {
-     public class SpellCaster : MonoBehaviour
+     public class SpellCaster : SerializedMonoBehaviour
      {
           private InputPointManager _inputPointManager;
-          private Dictionary<string, SpellData> _spellDictionary;
+          [SerializeField] private SpellData castedSpell;
 
           private void Awake()
           {
@@ -17,12 +18,12 @@ namespace ScrawledPixels.BattleLogic.SpellCast
 
           private void CastSpell(string key)
           {
-               _spellDictionary.TryGetValue(key, out SpellData castedSpell);
-               if (castedSpell && castedSpell.IsAble)
+               if (key == castedSpell.Key)
                {
                     foreach (var action in castedSpell.Actions)
                     {
-                         action.DoAction(castedSpell.TargetType.GetTarget());
+                         GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy");
+                         action.DoAction(targets[0].GetComponent<EnemyFighter>());
                     }
                }
           }
