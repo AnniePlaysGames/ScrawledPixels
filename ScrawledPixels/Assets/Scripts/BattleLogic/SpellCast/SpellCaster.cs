@@ -5,7 +5,7 @@ using ScrawledPixels.OdinSerializer;
 
 namespace ScrawledPixels.BattleLogic.SpellCast
 {
-     public class SpellCaster : SerializedMonoBehaviour
+     public class SpellCaster : MonoBehaviour
      {
           private InputPointManager _inputPointManager;
           [SerializeField] private SpellData castedSpell;

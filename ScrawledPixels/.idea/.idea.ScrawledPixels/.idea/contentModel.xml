@@ -241,6 +241,14 @@
             <e p="EnemyFighter.cs" t="Include" />
             <e p="IFightable.cs" t="Include" />
             <e p="SpellCast" t="Include">
+              <e p="SpellActions" t="Include">
+                <e p="ArmorDamageAction.cs" t="Include" />
+                <e p="DamageAction.cs" t="Include" />
+                <e p="HealAction.cs" t="Include" />
+                <e p="IncreaseArmorAction.cs" t="Include" />
+                <e p="ISpellAction.cs" t="Include" />
+                <e p="SpellAction.cs" t="Include" />
+              </e>
               <e p="SpellCaster.cs" t="Include" />
               <e p="SpellData.cs" t="Include" />
             </e>
@@ -250,7 +258,6 @@
           <e p="InputSystem" t="Include">
             <e p="InputPoint.cs" t="Include" />
             <e p="InputPointManager.cs" t="Include" />
-            <e p="InputTargetHandler.cs" t="Include" />
             <e p="KeyboardInput.cs" t="Include" />
             <e p="MouseLook.cs" t="Include" />
             <e p="TouchDetection.cs" t="Include" />

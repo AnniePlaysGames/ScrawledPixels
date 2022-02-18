@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a6e3def96247aa8f1ccb9b5bdadd41, type: 3}
   m_Name: Ilya
   m_EditorClassIdentifier: 
-  _health: 0
-  _damage: 0
+  _name: Ilya
+  _sprite: {fileID: -2413806693520163455, guid: 9d829d38e697bf64f8b0c4d47a064ebc, type: 3}
+  _health: 20
+  _damage: 3
+  _armor: 0

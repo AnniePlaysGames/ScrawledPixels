@@ -20,6 +20,7 @@ namespace ScrawledPixels.BattleLogic
             {
                 Health -= damageValue;
                 Debug.Log($"{Name} Apply {damageValue} damage");
+                Debug.Log(Health);
             }
         }
         

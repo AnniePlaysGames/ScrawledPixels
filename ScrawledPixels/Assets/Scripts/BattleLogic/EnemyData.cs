@@ -5,7 +5,7 @@ namespace ScrawledPixels.BattleLogic
     [CreateAssetMenu(fileName = "NewEnemy", menuName = "Game/Enemy", order = 51)]
     public class EnemyData : ScriptableObject
     {
-        public string Name => Name;
+        public string Name => _name;
         [SerializeField] private string _name;
 
         public Sprite Sprite => _sprite;

@@ -57,8 +57,8 @@ namespace ScrawledPixels.InputSystem
             {
                 point.Deactivate();
             }
-
-            _activePoints.Clear();
+            
+            onFinishInput.Invoke();
         }
 
         public string GetKey()

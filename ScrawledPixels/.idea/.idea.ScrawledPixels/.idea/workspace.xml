@@ -20,55 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd2092b-5217-4c4d-aaae-cc7685475040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ilya.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ilya.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpelActions/DamageAction.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpelActions/DamageAction.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/PlayerData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/PlayerData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ISpellAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ISpellAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells/New SpellData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/Spells/New SpellData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/EnemyTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/EnemyTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/ITargetType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/ITargetType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/PlayerTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/PlayerTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputPointManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputPointManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +50,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/TargetTypes/TargetType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/SpellAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/ISpellAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActionsData/ArmorDamageAction.cs" />
@@ -109,18 +69,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/TargetType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/ArmorDamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/DamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/HealAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/IncreaseArmorAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/ISpellAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/SpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/IncreaseArmorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/SpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ISpellAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputPointManager.cs" />
       </list>
     </option>
   </component>
@@ -180,6 +147,7 @@
       <workItem from="1645102022615" duration="84000" />
       <workItem from="1645102288334" duration="12179000" />
       <workItem from="1645176095193" duration="11874000" />
+      <workItem from="1645190416137" duration="1123000" />
     </task>
     <servers />
   </component>
@@ -220,5 +188,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1645176205284" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1645190870188">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1645190870188" />
   </component>
 </project>
