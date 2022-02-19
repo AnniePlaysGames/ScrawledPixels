@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using ScrawledPixels.BattleLogic.SpellCast;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -7,11 +9,10 @@ namespace ScrawledPixels.InputSystem
 {
     public class InputPointManager : MonoBehaviour
     {
-        public UnityEvent onFinishInput;
-
         private InputPoint[] _points;
         private List<InputPoint> _activePoints;
         [SerializeField] private Text _result;
+        private SpellCaster _spellCaster;
         private TouchDetection _touchDetection;
 
         private void Awake()
@@ -20,6 +21,7 @@ namespace ScrawledPixels.InputSystem
             _touchDetection.OnEndTouch += FinishInput;
             _activePoints = new List<InputPoint>();
             _points = GetComponentsInChildren<InputPoint>();
+            _spellCaster = GetComponentInParent<SpellCaster>();
 
             for (int i = 0; i < _points.Length; i++)
             {
@@ -50,25 +52,23 @@ namespace ScrawledPixels.InputSystem
             }
         }
 
-        public void FinishInput()
+        private void FinishInput()
         {
-            Debug.Log("Finish");
+            Debug.Log("Finish input");
+            _spellCaster.CastSpell(GetKey());
+        }
+
+        private string GetKey()
+        { 
+            string key = "";
             foreach (var point in _activePoints)
             {
+                key += point.Id;
                 point.Deactivate();
             }
             
-            onFinishInput.Invoke();
-        }
-
-        public string GetKey()
-        {
-            string key = "";
-            foreach (var pointId in _activePoints)
-            {
-                key += pointId;
-            }
-
+            Debug.Log($"SpellKey is {key}");
+            _activePoints.Clear();
             return key;
         }
     }

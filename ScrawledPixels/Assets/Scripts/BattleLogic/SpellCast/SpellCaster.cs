@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using ScrawledPixels.InputSystem;
@@ -7,16 +8,9 @@ namespace ScrawledPixels.BattleLogic.SpellCast
 {
      public class SpellCaster : MonoBehaviour
      {
-          private InputPointManager _inputPointManager;
           [SerializeField] private SpellData castedSpell;
 
-          private void Awake()
-          {
-               _inputPointManager = GetComponentInChildren<InputPointManager>();
-               _inputPointManager.onFinishInput.AddListener(() => CastSpell(_inputPointManager.GetKey()));
-          }
-
-          private void CastSpell(string key)
+          public void CastSpell(string key)
           {
                if (key == castedSpell.Key)
                {
