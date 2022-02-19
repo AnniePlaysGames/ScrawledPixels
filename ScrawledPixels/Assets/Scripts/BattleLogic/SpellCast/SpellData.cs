@@ -10,7 +10,9 @@ namespace ScrawledPixels.BattleLogic.SpellCast
     {
         [Range(1, 5)] [SerializeField] private int _castCount = 1;
         [SerializeField] private int _id;
-        [SerializeField] private string _name;
+        
+        public string Name => _name;
+        [SerializeField] private string _name;  
         
         public List<SpellAction> Actions => _actions;
         [SerializeField] private List<SpellAction> _actions;

@@ -35,9 +35,9 @@ namespace DefaultNamespace
             var enemyFighter = enemy.GetComponent<EnemyFighter>();
             enemyFighter.AttachData(_enemyData);
             enemy.SetActive(true);
-            Debug.Log("Бой начался!!!");
-            Debug.Log($"Врага зовут {enemyFighter.Name}, " +
-                      $"Его показатели {enemyFighter.Health}/{enemyFighter.Damage}");
+            Debug.Log("Fight has started");
+            Debug.Log($"Enemy's name is {enemyFighter.Name}, " +
+                      $"It's parameters {enemyFighter.Health}/{enemyFighter.Damage}");
         }
     }
 }
