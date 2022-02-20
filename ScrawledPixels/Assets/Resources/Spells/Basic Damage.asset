@@ -16,7 +16,6 @@ MonoBehaviour:
   _id: 0
   _name: Basic Damage
   _actions:
-  - {fileID: 11400000, guid: e0db7edfb28fcda4abd8f394b86c191d, type: 2}
-  _targetType: {fileID: 0}
+  - {fileID: 11400000, guid: 44933080bca26df448ddc63ea45ceb4a, type: 2}
   _key: 036
   _isAble: 1

@@ -1,40 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using ScrawledPixels;
 using ScrawledPixels.BattleLogic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 namespace DefaultNamespace
 {
     public class Bootstrapper : MonoBehaviour
     {
-        [SerializeField] private GameObject _enemyPrefab;
-        [SerializeField] private EnemyData _enemyData;
-        private GameObject _enemy;
-        private EnemyFighter _enemyFighter;
+        [SerializeField] private GameObject _enemyPrefab; 
+        private EnemyData[] _enemyDataBase;
 
         private void Awake()
         {
-           _enemy = RegisterEnemy(_enemyPrefab);
+           _enemyDataBase = InitEnemyDatabase();
         }
 
         private void Start()
         {
-            StartBattle(_enemy);
+            StartBattle(_enemies);
         }
 
-        private GameObject RegisterEnemy(GameObject enemyPrefab)
+        private EnemyData[] InitEnemyDatabase()
         {
-            var enemy = Instantiate(enemyPrefab);
-            enemy.SetActive(false);
-            return enemy;
+            return Resources.LoadAll<EnemyData>("Enemies");
         }
 
-        private void StartBattle(GameObject enemy)
+        private void StartBattle(Dictionary<GameObject,EnemyData> enemies)
         {
-            var enemyFighter = enemy.GetComponent<EnemyFighter>();
-            enemyFighter.AttachData(_enemyData);
-            enemy.SetActive(true);
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                var enemyFighter = enemies[i].GetComponent<EnemyFighter>();
+                enemyFighter.AttachData();
+            }
+            
+           
             Debug.Log("Fight has started");
             Debug.Log($"Enemy's name is {enemyFighter.Name}, " +
                       $"It's parameters {enemyFighter.Health}/{enemyFighter.Damage}");
