@@ -1,10 +1,14 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 namespace ScrawledPixels.BattleLogic
 {
     [CreateAssetMenu(fileName = "NewEnemy", menuName = "Game/Enemy", order = 51)]
     public class EnemyData : ScriptableObject
     {
+        public int Id => _id;
+        [SerializeField] private int _id;
+        
         public string Name => _name;
         [SerializeField] private string _name;
 

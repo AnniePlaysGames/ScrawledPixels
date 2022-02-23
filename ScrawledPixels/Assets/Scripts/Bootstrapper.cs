@@ -4,42 +4,52 @@ using System.Collections.Specialized;
 using ScrawledPixels;
 using ScrawledPixels.BattleLogic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.PlayerLoop;
 
 namespace DefaultNamespace
 {
     public class Bootstrapper : MonoBehaviour
     {
-        [SerializeField] private GameObject _enemyPrefab; 
-        private EnemyData[] _enemyDataBase;
+        [SerializeField] private GameObject _enemyPrefab;
+        private Dictionary<int, EnemyData> _enemyDataBase;
 
         private void Awake()
         {
-           _enemyDataBase = InitEnemyDatabase();
+            _enemyDataBase = InitEnemyDatabase();
         }
 
         private void Start()
         {
-            StartBattle(_enemies);
+            StartBattle(new Arena("Test", "01"));
+        }
+        
+        private void StartBattle(Arena arena)
+        {
+            GameObject[] enemies = InitEnemyGameObjects(arena.EnemyCount, arena.EnemyIdArray);
         }
 
-        private EnemyData[] InitEnemyDatabase()
+        private Dictionary<int, EnemyData> InitEnemyDatabase()
         {
-            return Resources.LoadAll<EnemyData>("Enemies");
-        }
-
-        private void StartBattle(Dictionary<GameObject,EnemyData> enemies)
-        {
-            for (int i = 0; i < enemies.Count; i++)
+            EnemyData[] _dataArray = Resources.LoadAll<EnemyData>("Enemies");
+            var enemyDataBase = new Dictionary<int,EnemyData>();
+            for (int i = 0; i < _dataArray.Length; i++)
             {
-                var enemyFighter = enemies[i].GetComponent<EnemyFighter>();
-                enemyFighter.AttachData();
+                enemyDataBase.Add(_dataArray[i].Id, _dataArray[i]);
             }
-            
-           
-            Debug.Log("Fight has started");
-            Debug.Log($"Enemy's name is {enemyFighter.Name}, " +
-                      $"It's parameters {enemyFighter.Health}/{enemyFighter.Damage}");
+
+            return enemyDataBase;
+        }
+
+        private GameObject[] InitEnemyGameObjects(int count, int[] enemiesId)
+        {
+            var enemies = new GameObject[count];
+            for (int i = 0; i < count; i++)
+            {
+                enemies[i] = Instantiate(_enemyPrefab);
+            }
+
+            return enemies;
         }
     }
 }

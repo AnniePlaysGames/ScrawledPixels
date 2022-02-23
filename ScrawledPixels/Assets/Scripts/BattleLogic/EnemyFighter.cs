@@ -6,6 +6,9 @@ namespace ScrawledPixels.BattleLogic
 {
     public sealed class EnemyFighter : UnitFighter
     {
+        private int _id;
+        public override int Id => _id;
+        
         private string _name;
         public override string Name => _name;
         
@@ -20,6 +23,7 @@ namespace ScrawledPixels.BattleLogic
 
         public void AttachData(EnemyData data)
         {
+            _id = data.Id;
             _name = data.Name;
             GetComponent<SpriteRenderer>().sprite = data.Sprite;
             

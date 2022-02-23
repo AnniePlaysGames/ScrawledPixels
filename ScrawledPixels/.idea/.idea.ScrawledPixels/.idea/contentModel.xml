@@ -236,6 +236,7 @@
             </e>
             <e p="FieldOfView.cs" t="Include" />
           </e>
+          <e p="Arena.cs" t="Include" />
           <e p="BattleLogic" t="Include">
             <e p="EnemyData.cs" t="Include" />
             <e p="EnemyFighter.cs" t="Include" />
@@ -255,6 +256,7 @@
             <e p="UnitFighter.cs" t="Include" />
           </e>
           <e p="Bootstrapper.cs" t="Include" />
+          <e p="Const.cs" t="Include" />
           <e p="InputSystem" t="Include">
             <e p="InputPoint.cs" t="Include" />
             <e p="InputPointManager.cs" t="Include" />

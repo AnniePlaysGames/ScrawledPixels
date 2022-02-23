@@ -8,6 +8,7 @@ namespace ScrawledPixels.BattleLogic
     {
         public event Action onDeath;
         
+        public abstract int Id { get; }
         public abstract string Name { get; }
         public abstract int Health { get; protected set; }
         public abstract int Damage { get; protected set; }

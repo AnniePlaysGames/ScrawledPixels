@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd2092b-5217-4c4d-aaae-cc7685475040" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Arena.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Arena.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Const.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Const.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ScrawledPixels/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SpelActions/HealAction.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SpelActions/HealAction.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Spells/Basic Damage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Spells/Basic Damage.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Spells/Basic Heal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Spells/Basic Heal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +64,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputTargetHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameCycle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/TargetType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/ArmorDamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/DamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellActions/SpellActionsData/HealAction.cs" />
@@ -75,11 +79,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/ArmorDamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/DamageAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellActions/HealAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputSystem/InputPointManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/SpellCast/SpellCaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/IFightable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/UnitFighter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleLogic/EnemyFighter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Const.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Arena.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrapper.cs" />
       </list>
     </option>
@@ -94,6 +102,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -116,10 +126,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1036">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1036" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -174,6 +184,70 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1645179311569" />
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1645660009521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1645660009521" />
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.2.center" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.2.left" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.2.right" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.3.center" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.3.left" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
+    <state width="1237" height="231" key="GridCell.Tab.3.right" timestamp="1645660009522">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="231" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1645660009522" />
     <state x="469" y="26" key="RiderGenerateDialog" timestamp="1645177524455">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -190,10 +264,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1645176205284" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1645190870188">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1645659252059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1645190870188" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1645659252059" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

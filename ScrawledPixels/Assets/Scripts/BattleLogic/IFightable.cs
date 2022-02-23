@@ -1,7 +1,8 @@
 ﻿namespace ScrawledPixels.BattleLogic
 {
     public interface IFightable
-    {  
+    {
+        public int Id { get; }
         public string Name { get; }
         public int Health { get; }
         public int Damage { get;  }
